@@ -24,16 +24,16 @@ This board has headers for every GPIO pin on its ESP32.
 
 |      |      | IO0 | GND | GND | RX  | TX  | 3V3 |      |      |
 | :--: | :--: | :-: | :-: | :-: | :-: | :-: | :-: | :--: | :--: |
-| 3V3  | IO6  |     |     |     |     |     |     | 3V3  | GND  |
-| IO7  | IO8  |     |     |     |     |     |     | IO10 | IO11 |
-| IO15 | IO2  |     |     |     |     |     |     | IO13 | IO9  |
+| 3V3  | CLK  |     |     |     |     |     |     | 3V3  | GND  |
+| SD0  | SD1  |     |     |     |     |     |     | SD3  | CMD  |
+| IO15 | IO2  |     |     |     |     |     |     | IO13 | SD2  |
 | IO0  | IO4  |     |     |     |     |     |     | IO14 | IO12 |
 | IO16 | IO17 |     |     |     |     |     |     | IO26 | IO27 |
-| IO5  | IO18 |     |     |     |     |     |     | IO33 | IO25 |
-| IO9  | GND  |     |     |     |     |     |     | IO35 | IO33 |
-| IO21 | IO3  |     |     |     |     |     |     | IO39 | IO34 |
-| IO1  | IO22 |     |     |     |     |     |     | EN   | IO36 |
-| IO23 | GND  |     |     |     |     |     |     | 3V3  | GND  |
+| IO25 | IO18 |     |     |     |     |     |     | IO33 | IO25 |
+| IO19 | GND  |     |     |     |     |     |     | IO35 | IO33 |
+| IO21 | RX   |     |     |     |     |     |     | SVP  | IO34 |
+| TX   | IO22 |     |     |     |     |     |     | EN   | SVN  |
+| IO23 | GND  |     |     |     |     |     |     | GND  | 3V3  |
 
 ## Basic Config
 
